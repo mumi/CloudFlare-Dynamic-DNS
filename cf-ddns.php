@@ -1,13 +1,8 @@
 <?php
-///////////////////////////////////////////////////////////////
-///															///
-///															///
-///		 CloudFlare API script to change A/AAA record		///
-///			by mumi - https://github.com/mumi/				///
-///		https://github.com/mumi/CloudFlare-Dynamic-DNS		///
-///															///
-///															///
-///////////////////////////////////////////////////////////////
+
+///		 CloudFlare API script to change A/AAA record
+///			by mumi - https://github.com/mumi/
+///		https://github.com/mumi/CloudFlare-Dynamic-DNS
 
 $only_tld = explode(".", $_GET['domain']);
 $only_tld = $only_tld[1].".".$only_tld[2];
