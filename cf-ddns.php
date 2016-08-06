@@ -4,8 +4,15 @@
 ///			by mumi - https://github.com/mumi/
 ///		https://github.com/mumi/CloudFlare-Dynamic-DNS
 
-$only_tld = explode(".", $_GET['domain']);
-$only_tld = $only_tld[1].".".$only_tld[2];
+//Subdomain (true) or normal domain (false)?
+$use_subdomain = true;
+
+if ($use_subdomain) {
+	$only_tld = explode(".", $_GET['domain']);
+	$only_tld = $only_tld[1].".".$only_tld[2];
+} else {
+	$only_tld = $_GET['domain']
+}
 
 $ch = curl_init();
 
