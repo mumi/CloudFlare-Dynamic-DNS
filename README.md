@@ -10,7 +10,7 @@ https://damn.com/cf-ddns.php?domain=vpn.test.com&email=test@test.com&key=fe5a7b8
 ```
 - IPv4 or IPv6 (prefers IPv4, no DualStack)
 - This type of API is supported by the most routers etc.
-- The domain must be a subdomain (e.g. home.chicken.com . If you want to use the normal Domain (e.g. chicken.com) edit the
+- The domain must be a subdomain (e.g. home.chicken.com . If you want to use the normal Domain (e.g. chicken.com) edit in the php file the
 ```php
 $use_subdomain = true;
 ```
