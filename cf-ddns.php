@@ -11,7 +11,7 @@ if ($use_subdomain) {
 	$only_tld = explode(".", $_GET['domain']);
 	$only_tld = $only_tld[1].".".$only_tld[2];
 } else {
-	$only_tld = $_GET['domain']
+	$only_tld = $_GET['domain'];
 }
 
 $ch = curl_init();
