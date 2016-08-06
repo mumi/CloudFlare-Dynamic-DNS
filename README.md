@@ -12,4 +12,4 @@ https://damn.com/cf-ddns.php?domain=vpn.test.com&email=test@test.com&key=fe5a7b8
 - This type of API is supported by the most routers etc.
 
 e.g. FRITZ!Box:
-[![FRITZBox settings](http://i.imgur.com/wfL4yKU.jpg)
+![FRITZBox settings](http://i.imgur.com/wfL4yKU.jpg)
