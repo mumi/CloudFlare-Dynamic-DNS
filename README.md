@@ -6,5 +6,5 @@ example.com/cf-ddns.php?domain=**DOMAIN**&email=**CLOUDFLARE-MAIL**&key=**CLOUDF
 
 e.g.:
 ```
-https://damn.com/cf-ddns/index.php?domain=vpn.test.com&email=test@test.com&key=fe5a7a9b8db8f184c41&ip=23.45.86.54
+https://damn.com/cf-ddns.php?domain=vpn.test.com&email=test@test.com&key=fe5a7a9b8db8fshd76s67h4184c41&ip=23.45.86.54
 ```
