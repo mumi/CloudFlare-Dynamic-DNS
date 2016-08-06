@@ -22,5 +22,5 @@ $use_subdomain = false;
 e.g. FRITZ!Box:
 ![FRITZBox settings](http://i.imgur.com/wfL4yKU.jpg)
 
-**In this case, Username (Variable ```<username>```) means Cloudflare Email adress and Password (Variable ```<pass>```) means Cloudflare-API-Key.**
+**In this case, Username (```<username>```) means Cloudflare Email adress and Password (```<pass>```) means Cloudflare-API-Key.**
 **```<ipaddr>``` is a variable by Fritzbox for the IP adress**
