@@ -13,3 +13,6 @@ https://damn.com/cf-ddns.php?domain=vpn.test.com&email=test@test.com&key=fe5a7b8
 
 e.g. FRITZ!Box:
 ![FRITZBox settings](http://i.imgur.com/wfL4yKU.jpg)
+
+**In this case, username means Cloudflare Email adress and Password means Cloudflare-API-Key.**
+**ipaddr is a variable by Fritzbox for the IP adress**
