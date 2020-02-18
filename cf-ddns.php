@@ -4,8 +4,6 @@
 ///			by mumi - https://github.com/mumi/
 ///		https://github.com/mumi/CloudFlare-Dynamic-DNS
 
-<?php
-
 //ini_set('display_errors', 1);
 //ini_set('display_startup_errors', 1);
 //error_reporting(E_ALL);
