@@ -47,7 +47,7 @@ if (curl_errno($ch)) {
 $zone_id = json_decode($result)->result[0]->id;
 echo '<br />Found Zone ID: ' . $zone_id . '<br />';
 
-curl_setopt($ch, CURLOPT_URL, "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records?&name={$_GET['domain']}&page=1&per_page=20&order=!type&direction=desc&match=all");
+curl_setopt($ch, CURLOPT_URL, "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records?&name={$_GET['domain']}&page=1&per_page=20&order=type&direction=desc&match=all");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
 
